@@ -190,6 +190,12 @@
     height: auto;
     margin: -100px 0 30px;
   }
+
+  &__mob {
+    img {
+      margin-top: 20px;
+    }
+  }
 }
 
 .shipping-content {

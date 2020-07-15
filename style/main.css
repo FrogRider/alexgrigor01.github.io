@@ -368,6 +368,10 @@
   margin: -100px 0 30px;
 }
 
+.size-content__mob img {
+  margin-top: 20px;
+}
+
 .shipping-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -498,5 +502,8 @@ a {
 @media screen and (max-width: 720px) {
   .mobile-only {
     display: block;
+  }
+  .desctop-tablet {
+    display: none;
   }
 }
