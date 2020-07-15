@@ -24,9 +24,9 @@
   &__item-image {
     width: 242px;
     height: 242px;
-    background-image: url(../img/tshirt.png);
+    background-image: url(../img/tshirt-l.png);
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
 
     &_red {
       @include card-shadow(#EC1F23);
